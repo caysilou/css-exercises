@@ -11,6 +11,20 @@ img {
   width: 600px;
 }
 
+ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  padding: 0px;
+  gap: 16px;
+}
+
+a {
+  font-family: sans-serif;
+  text-decoration: none;
+  color: gray;
+}
+
 button {
   font-family: Roboto, sans-serif;
   border: none;
@@ -24,4 +38,26 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 16px;
+} 
+
+.footer {
+  background-color: #eeeeee;
+}
+
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
